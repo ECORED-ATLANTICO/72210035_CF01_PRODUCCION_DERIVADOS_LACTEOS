@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Composición, calidad e inocuidad de la leche en la cadena productiva',
+    Description:
+      'Este componente formativo aborda la composición y las principales características de la leche, así como los factores que pueden modificar su calidad. Además, permite reconocer los microorganismos y agentes contaminantes que pueden afectar su inocuidad, junto con las prácticas higiénicas necesarias durante el ordeño, almacenamiento, transporte, recepción, procesamiento y manipulación. De esta manera, el aprendiz comprenderá la importancia de conservar la calidad de la leche a lo largo de la cadena productiva como base para la elaboración segura de derivados lácteos.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.png',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.png',
       },
     ],
   },
@@ -31,15 +36,8 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Factores que influyen en la calidad de la leche',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
@@ -47,6 +45,13 @@ export default {
         numero: '2',
         titulo: 'Tema 2',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Subtema 1',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
