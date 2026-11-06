@@ -71,6 +71,18 @@ export default {
         titulo: 'Tema 5',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Tema 6',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Tema 7',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {

@@ -62,10 +62,16 @@ figcaption, table caption
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
+.bg-secundario
+  background-color: $color-secundario
 .bg-secundario-s10
   background-color: $color-secundario-s10
 .bg-primario-p5
   background-color: $color-primario-p5
+.bg-contenido-a10
+  background-color: $color-acento-contenido-a10
+.bg-contenido-a5
+  background-color: $color-acento-contenido-a5
 
 .fullwidth-bg
   display: none
@@ -74,7 +80,7 @@ figcaption, table caption
   position: relative
   z-index: 0
   &--1::after
-    top: 0px
+    top: 50px
     left: -55px
     position: absolute
     content: url('../assets/curso/common/bg-1.png')
@@ -82,5 +88,49 @@ figcaption, table caption
 .z-2
   z-index: 2
   position: relative
+
+.banner-text
+  position: relative
+  border-radius: 10px
+  padding: 20px
+  margin-top: -30px
+  background-color: $color-secundario
+  @media screen and (min-width: $bp-min-md)
+    padding: 20px 30px
+    margin-top: -80px 
+
+.bg-audio
+  background: url('../assets/curso/common/bg-audio.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.tarjeta-audio
+  background-color: $white
+  &__texto
+    color: $color-sistema-texto !important
+
+  .tarjeta-audio__input input[type=range]
+    background-color: $color-acento-contenido !important
+
+  .audio__btn
+    background-color: $color-acento-botones !important
+
+  &__tiempo
+    color: $color-sistema-texto !important
   
- 
+.acordion
+  .acordion__activo
+    background-color: $color-acento-contenido-a10
+  .acordion__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+
+.imgh-92
+  height: 92px
+  width: auto
+
+.tabs-c__content-item
+  background-color: $color-secundario-s10
+.tabs-c__header
+  margin-bottom: 0 !important
