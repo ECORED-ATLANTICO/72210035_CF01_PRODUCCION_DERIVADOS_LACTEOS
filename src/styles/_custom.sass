@@ -105,6 +105,24 @@ figcaption, table caption
   background-position: center
   background-repeat: no-repeat
 
+.bg-slider
+  background: url('../assets/curso/common/bg-slider.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.bg-slider-2
+  background: url('../assets/curso/common/bg-slider-2.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.bg-vaca
+  background: url('../assets/curso/common/bg-vaca.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
 .tarjeta-audio
   background-color: $white
   &__texto
@@ -134,3 +152,21 @@ figcaption, table caption
   background-color: $color-secundario-s10
 .tabs-c__header
   margin-bottom: 0 !important
+
+.slyder-a
+  &__btn--sigt, &__btn--atrs
+    background-color: $color-acento-botones
+
+  .slyder-a__bullets__item
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+
+.tabs-a__tab
+  background-color: $color-acento-contenido
+
+.tabs-a
+  @media screen and (min-width: $bp-min-lg)
+    .col-lg-4.col-xl-3
+      width: 40% !important
+    .col-lg-8.col-xl-9
+      width: 60% !important
