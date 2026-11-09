@@ -74,10 +74,12 @@ figcaption, table caption
   background-color: $color-acento-contenido-a5
 .bg-botones-b5
   background-color: $color-acento-botones-b5
+.bg-botones-b10
+  background-color: $color-acento-botones-b10
 
 .fullwidth-bg
   display: none
-  @media screen and (min-width: 768px)
+  @media screen and (min-width: $bp-min-xl)
     display: block
   position: relative
   z-index: 0
@@ -213,4 +215,25 @@ figcaption, table caption
     .linea-tiempo-d__item__content
       background-color: $color-acento-contenido-a10
   &__item__number
-    background-color: #D8EBAE
+    background-color: $color-primario-p10
+
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: $color-primario-p10
+  border-radius: 20px
+  padding: 8px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -10px
+  width: 75px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 55px
+
+.tarjeta-avatar > img
+  width: 140px

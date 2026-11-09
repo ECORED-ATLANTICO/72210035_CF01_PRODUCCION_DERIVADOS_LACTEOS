@@ -19,7 +19,7 @@
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/2.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
         p Su análisis ayuda a identificar variaciones en la leche y a valorar si mantiene condiciones adecuadas antes de ser utilizada en la elaboración de derivados lácteos. 
-        .bg-primary-p5.p-4.rounded-4.py-3
+        .bg-primario-p5.p-4.rounded-4.py-3
           p.mb-0 Las propiedades físicas de la leche corresponden a características medibles que describen su comportamiento frente a determinadas condiciones. Algunas están relacionadas con la cantidad de sólidos presentes, otras con su respuesta a los cambios de temperatura o con la forma en que interactúan sus componentes. Estas propiedades permiten complementar la evaluación sensorial y aportan información útil para el control de calidad en la recepción y procesamiento de la materia prima. 
 
     separador
@@ -209,7 +209,7 @@
             td #[strong Punto de ebullición]
             td 100,1 - 100,2 °C
             td Agua, sólidos disueltos y presión atmosférica
-            td Termómetro/equipo de proceso
+            td Termómetro / equipo de proceso
             td Permite controlar operaciones de calentamiento y concentración. 
           tr
             td #[strong Índice de refracción]

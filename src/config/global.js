@@ -39,49 +39,119 @@ export default {
         titulo: 'Factores que influyen en la calidad de la leche',
         desarrolloContenidos: true,
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Composición de la leche ',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
+            titulo: 'Agua y carbohidratos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Proteínas y grasas',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Enzimas, vitaminas y minerales',
+            hash: 't_2_3',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Características organolépticas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Textura y color',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Sabor y olor',
+            hash: 't_3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo: 'Propiedades físicas de la leche',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Densidad, pH, acidez',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo:
+              'Punto de congelación, punto de ebullición e índice de refracción',
+            hash: 't_4_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 5',
+        titulo: 'Microorganismos alterantes de la leche',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Bacterias Gram positivas',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Bacterias Gram negativas',
+            hash: 't_5_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Tema 6',
+        titulo: 'Factores que afectan el desarrollo de los microorganismos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Humedad y acidez',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Agentes de limpieza, y antibióticos',
+            hash: 't_6_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: 'Tema 7',
+        titulo: 'Contaminación de la leche en cadena productiva',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '7.1',
+            titulo: 'Producción primaria',
+            hash: 't_7_1',
+          },
+          {
+            numero: '7.2',
+            titulo: 'Recepción de la materia prima en plantas de procesos',
+            hash: 't_7_2',
+          },
+        ],
       },
     ],
     subMenu: [

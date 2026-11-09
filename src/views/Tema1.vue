@@ -17,7 +17,7 @@
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/1.png", alt="")
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
-      .col-sm-6.col-lg-4
+      .col-sm-6.col-lg-4.d-none.d-lg-block
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema1/2.png", alt="" data-aos="zoom-in-down")
       .col-lg-8

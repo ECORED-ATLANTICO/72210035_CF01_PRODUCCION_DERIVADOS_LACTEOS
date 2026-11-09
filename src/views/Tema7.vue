@@ -48,7 +48,7 @@
         p La calidad de la leche comienza a construirse desde el lugar donde se obtiene. Las condiciones del animal, el estado de la ubre, la limpieza del sitio de ordeño, la higiene de las personas y el manejo de los equipos pueden influir directamente en la materia prima. Por esta razón, los primeros minutos después del ordeño son determinantes para conservar sus características y evitar que agentes contaminantes ingresen al producto. 
         .bg-primario-p5.p-4.py-3.rounded-4.mb-4.mb-lg-0
           p.mb-0 La producción primaria de leche comprende las actividades relacionadas con el cuidado del animal, el ordeño, la recolección, el filtrado, el enfriamiento y el almacenamiento inicial antes del transporte hacia un centro de acopio o una planta de procesamiento. En esta etapa pueden incorporarse contaminantes biológicos, químicos o físicos si no se aplican prácticas adecuadas de higiene y manejo.
-      .col-sm-8.col-lg-5
+      .col-sm-8.col-lg-5.d-none.d-lg-block
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema7/4.png", alt="")
     
