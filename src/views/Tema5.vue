@@ -12,8 +12,13 @@
       .col-lg-10(data-aos="fade-down")
         div.banner-text.shadow-sm.p-4.mb-4
           p.mb-0 Desde el momento del ordeño hasta su recepción y procesamiento, la leche puede entrar en contacto con diferentes microorganismos provenientes del animal, los equipos, el agua, el ambiente, los recipientes o las personas que la manipulan.  
-    .bg-primario-p5.p-4.py-3.rounded-4.mb-5
-      p.mb-0 Cuando las condiciones de higiene, temperatura o almacenamiento no son adecuadas, algunos de estos microorganismos pueden multiplicarse rápidamente y generar cambios que afectan la calidad de la materia prima, incluso antes de que sean evidentes a simple vista. 
+
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/tema5/2.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Cuando las condiciones de higiene, temperatura o almacenamiento no son adecuadas, algunos de estos microorganismos pueden multiplicarse rápidamente y generar cambios que afectan la calidad de la materia prima, incluso antes de que sean evidentes a simple vista. 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-8.col-lg-5
@@ -140,16 +145,6 @@
           span Principales bacterias Gram negativas relacionadas con alteraciones de la leche
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/10-mob.png", alt="La figura presenta de manera visual diferentes tipos de bacterias Gram negativas asociadas con la alteración de la leche, mostrando su apariencia microscópica y una breve referencia sobre su relación con las condiciones de almacenamiento, higiene y manipulación. La imagen facilita la identificación general de estos agentes y resalta la importancia de aplicar medidas de control, limpieza, refrigeración y buenas prácticas para reducir su desarrollo en la leche.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/10.png", alt="La figura presenta de manera visual diferentes tipos de bacterias Gram negativas asociadas con la alteración de la leche, mostrando su apariencia microscópica y una breve referencia sobre su relación con las condiciones de almacenamiento, higiene y manipulación. La imagen facilita la identificación general de estos agentes y resalta la importancia de aplicar medidas de control, limpieza, refrigeración y buenas prácticas para reducir su desarrollo en la leche.")
-
-
- 
-
- 
-
-
-
-
-
 
 </template>
 

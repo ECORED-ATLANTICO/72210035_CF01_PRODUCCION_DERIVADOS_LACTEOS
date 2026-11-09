@@ -38,7 +38,7 @@
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-7
-        .bg-secundario.p-4.rounded-4
+        .bg-secundario.p-4.rounded-4.mb-4.mb-lg-0
           p.mb-0 Antes de interpretar un valor de densidad es importante reconocer que cada componente de la leche ejerce un efecto diferente sobre este parámetro. El agua, la grasa y los sólidos no grasos no tienen la misma densidad; por ello, los cambios en su proporción pueden modificar el resultado obtenido durante la medición. Esta relación explica por qué la densidad se utiliza como un indicador inicial para valorar la composición de la leche y detectar variaciones que requieren análisis complementarios. A continuación, se relacionan los componentes que influyen en la densidad de la leche: 
       .col-sm-8.col-lg-5
         figure
@@ -176,7 +176,7 @@
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/11.png", alt="")
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-sm-6.col-lg-3
+      .col-sm-6.col-lg-3.d-none.d-lg-block
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/12.png", alt="" data-aos="zoom-in-down")
       .col-lg-9

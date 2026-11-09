@@ -72,6 +72,8 @@ figcaption, table caption
   background-color: $color-acento-contenido-a10
 .bg-contenido-a5
   background-color: $color-acento-contenido-a5
+.bg-botones-b5
+  background-color: $color-acento-botones-b5
 
 .fullwidth-bg
   display: none
@@ -98,6 +100,9 @@ figcaption, table caption
   @media screen and (min-width: $bp-min-md)
     padding: 20px 30px
     margin-top: -80px 
+    
+  &.bg-primario-p5
+    background-color: $color-primario-p5
 
 .bg-audio
   background: url('../assets/curso/common/bg-audio.png')
@@ -162,6 +167,14 @@ figcaption, table caption
 .imgh-105
   height: 105px
   width: auto
+.imgw-165
+  width: 165px
+  height: auto
+  margin: 0 auto
+.imw-230
+  width: 230px
+  height: auto
+  margin: 0 auto
 
 .tabs-c__content-item
   background-color: $color-secundario-s10
@@ -185,3 +198,19 @@ figcaption, table caption
       width: 40% !important
     .col-lg-8.col-xl-9
       width: 60% !important
+
+.accesibilidad
+  z-index: 3
+
+.slyder-a__bullets__item
+  margin: 0 7px
+
+.linea-tiempo-d
+  &__item__content
+    background-color: $color-acento-contenido-a5
+    padding: .5rem
+  &__item--selected
+    .linea-tiempo-d__item__content
+      background-color: $color-acento-contenido-a10
+  &__item__number
+    background-color: #D8EBAE
