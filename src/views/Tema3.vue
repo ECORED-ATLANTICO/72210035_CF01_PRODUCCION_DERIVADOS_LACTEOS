@@ -138,6 +138,8 @@
       .col-sm-8.col-lg-4
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema3/14.png", alt="")
+
+    p.mb-5.z-2 El sabor en la leche se puede presentar de las siguientes formas: 
     
     TabsC.color-acento-contenido.mb-5.z-2
       .p-4(titulo="Suave y ligeramente dulce ")
@@ -188,17 +190,17 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-lg-7.mb-4.mb-lg-0
         LineaTiempoD.color-acento-botones
-          .div(numero="1" titulo="Característico")
+          .div(numero="a." titulo="Característico")
             p.mb-0 Olor suave y propio de la leche fresca.   
-          .div(numero="2" titulo="Ácido")
+          .div(numero="b." titulo="Ácido")
             p.mb-0 Puede indicar fermentación o deterioro.
-          .div(numero="3" titulo="Rancio")
+          .div(numero="c." titulo="Rancio")
             p.mb-0 Se asocia con alteraciones de la grasa.
-          .div(numero="4" titulo="A establo o alimento")
+          .div(numero="d." titulo="A establo o alimento")
             p.mb-0 La leche puede absorber olores del ambiente o de la alimentación.
-          .div(numero="5" titulo="Químico")
+          .div(numero="e." titulo="Químico")
             p.mb-0 Puede relacionarse con residuos de detergentes o desinfectantes.
-          .div(numero="6" titulo="Extraño")
+          .div(numero="f." titulo="Extraño")
             p.mb-0 Cualquier olor diferente al esperado requiere revisión.
       .col-sm-8.col-lg-5
         figure

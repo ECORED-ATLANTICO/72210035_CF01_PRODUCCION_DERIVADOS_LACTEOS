@@ -23,11 +23,12 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Los factores que afectan el desarrollo de los microorganismos son aquellas condiciones propias del alimento o de su entorno que pueden favorecer, limitar o impedir su crecimiento y multiplicación. En la leche, estos factores tienen especial importancia porque se trata de un alimento con alta disponibilidad de nutrientes y agua, características que pueden facilitar el desarrollo microbiano cuando no se aplican adecuadamente las medidas de control. Sin embargo, disponer de nutrientes no garantiza por sí solo su crecimiento; también intervienen aspectos como los que se muestran en la siguiente figura: 
 
-    .titulo-sexto.color-acento-contenido.mb-4
+    .fullwidth-bg.fullwidth-bg--1
+    .titulo-sexto.color-acento-contenido.mb-4.z-2
       h5 Figura 5.
       span Aspectos que intervienen en el desarrollo de los microorganismos
-    img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema6/3-mob.png", alt="La figura muestra cómo diferentes condiciones relacionadas con el manejo y las características de la leche pueden influir en el desarrollo de los microorganismos. De manera visual, presenta la relación entre el ambiente de conservación, el tiempo de almacenamiento y los nutrientes disponibles, evidenciando que estos elementos pueden favorecer o limitar la actividad microbiana. En conjunto, la figura  permite comprender por qué el control adecuado de estas condiciones es fundamental para conservar la calidad de la leche y reducir el riesgo de deterioro. ")
-    img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema6/3.png", alt="La figura muestra cómo diferentes condiciones relacionadas con el manejo y las características de la leche pueden influir en el desarrollo de los microorganismos. De manera visual, presenta la relación entre el ambiente de conservación, el tiempo de almacenamiento y los nutrientes disponibles, evidenciando que estos elementos pueden favorecer o limitar la actividad microbiana. En conjunto, la figura  permite comprender por qué el control adecuado de estas condiciones es fundamental para conservar la calidad de la leche y reducir el riesgo de deterioro. ")
+    img.mb-2.d-sm-none.z-2(data-aos="fade-up", src="@/assets/curso/tema6/3-mob.png", alt="La figura muestra cómo diferentes condiciones relacionadas con el manejo y las características de la leche pueden influir en el desarrollo de los microorganismos. De manera visual, presenta la relación entre el ambiente de conservación, el tiempo de almacenamiento y los nutrientes disponibles, evidenciando que estos elementos pueden favorecer o limitar la actividad microbiana. En conjunto, la figura  permite comprender por qué el control adecuado de estas condiciones es fundamental para conservar la calidad de la leche y reducir el riesgo de deterioro. ")
+    img.mb-2.d-none.d-sm-block.z-2(data-aos="fade-up", src="@/assets/curso/tema6/3.png", alt="La figura muestra cómo diferentes condiciones relacionadas con el manejo y las características de la leche pueden influir en el desarrollo de los microorganismos. De manera visual, presenta la relación entre el ambiente de conservación, el tiempo de almacenamiento y los nutrientes disponibles, evidenciando que estos elementos pueden favorecer o limitar la actividad microbiana. En conjunto, la figura  permite comprender por qué el control adecuado de estas condiciones es fundamental para conservar la calidad de la leche y reducir el riesgo de deterioro. ")
   
     separador
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -53,7 +54,7 @@
           img(data-aos="fade-down-right", src="@/assets/curso/tema6/5.png", alt="")
     
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 1.
+      h5 Tabla 6.
       span Relación entre la humedad, la acidez y el desarrollo de los microorganismos
     .tabla-a.color-primario.tabla-a--text-left
       table
@@ -132,7 +133,9 @@
     .row.justify-content-center.z-2
       .col-lg-10(data-aos="fade-down")
         div.banner-text.shadow-sm.p-4.mb-5
-          p.mb-0 El crecimiento de los microorganismos en la leche no ocurre de la misma manera en todas las condiciones. Algunos pueden multiplicarse rápidamente cuando encuentran un ambiente favorable, mientras que otros reducen su actividad cuando cambian las condiciones del medio.
+          p.mb-0 Los antibióticos son sustancias utilizadas para tratar determinadas infecciones bacterianas en los animales. Su función no es conservar la leche ni controlar los microorganismos presentes en ella. Cuando una vaca recibe tratamiento, algunos residuos del medicamento pueden pasar temporalmente a la leche. Por esta razón, debe respetarse el tiempo de retiro indicado para cada medicamento antes de destinar nuevamente la leche al consumo o al procesamiento. 
+
+    p.mb-5.z-2 La presencia de residuos de antibióticos puede generar diferentes efectos: 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-6.col-lg-4.d-none.d-xl-block
@@ -142,7 +145,7 @@
         TabsA.color-acento-botones.z-2
           .tarjeta.bg-contenido-a5.p-4(titulo="Inhibición de bacterias útiles")
             p.mb-0 Puede impedir el crecimiento de microorganismos necesarios para elaborar productos fermentados. 
-            p.mb-0 #[strong Ejemplo]: un cultivo para yogur puede desarrollarse lentamente o no producir la acidificación esperada
+            p.mb-0 #[strong Ejemplo]: un cultivo para yogur puede desarrollarse lentamente o no producir la acidificación esperada.
           .tarjeta.bg-contenido-a5.p-4(titulo="Problemas en la elaboración")
             p.mb-0 puede alterar procesos que dependen de la actividad bacteriana controlada. 
             p.mb-0 #[strong Ejemplo]: en algunos quesos puede dificultarse el desarrollo adecuado de la fermentación. 
