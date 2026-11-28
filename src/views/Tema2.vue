@@ -121,7 +121,7 @@
           img(src='@/assets/curso/tema2/11.png' alt='')
           .tarjeta.bg-img.bg-img--2
             .p-4
-              h5 Proteína en suero 
+              h5 Proteínas en suero 
               p Son proteínas que permanecen principalmente en la fase líquida después de la coagulación de la leche. Tienen alto valor nutricional y son sensibles al calor.  
               p.mb-0 #[strong Ejemplo:] después de elaborar queso, estas proteínas permanecen en el suero resultante del proceso. 
 

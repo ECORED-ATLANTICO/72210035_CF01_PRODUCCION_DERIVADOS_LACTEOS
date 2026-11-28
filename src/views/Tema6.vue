@@ -21,7 +21,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema6/2.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Los factores que afectan el desarrollo de los microorganismos son aquellas condiciones propias del alimento o de su entorno que pueden favorecer, limitar o impedir su crecimiento y multiplicación. En la leche, estos factores tienen especial importancia porque se trata de un alimento con alta disponibilidad de nutrientes y agua, características que pueden facilitar el desarrollo microbiano cuando no se aplican adecuadamente las medidas de control. Sin embargo, disponer de nutrientes no garantiza por sí solo su crecimiento; también intervienen aspectos como los que se muestran en la siguiente figura: 
+        p.mb-0 Los factores que afectan el desarrollo de los microorganismos son aquellas condiciones propias del alimento o de su entorno que pueden favorecer, limitar o impedir su crecimiento y multiplicación. En la leche, estos factores tienen especial importancia porque se trata de un alimento con alta disponibilidad de nutrientes y agua, características que pueden facilitar el desarrollo microbiano cuando no se aplican adecuadamente las medidas de control. Sin embargo, disponer de nutrientes no garantiza por sí solo su crecimiento; también intervienen aspectos como los que se describen en la siguiente figura: 
 
     .fullwidth-bg.fullwidth-bg--1
     .titulo-sexto.color-acento-contenido.mb-4.z-2
@@ -88,7 +88,7 @@
 
     separador
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 6.2 Agentes de limpieza, y antibióticos 
+      h2 6.2 Agentes de limpieza y antibióticos 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-6.col-lg-3
@@ -98,7 +98,7 @@
         p Durante el ordeño, almacenamiento y procesamiento de la leche, los equipos, utensilios y superficies pueden acumular restos de grasa, proteínas, minerales y otros residuos orgánicos. Si estos materiales no se eliminan correctamente, pueden convertirse en una fuente de contaminación y favorecer la permanencia de microorganismos. Por esta razón, la limpieza constituye una etapa básica para mantener condiciones higiénicas adecuadas en la cadena productiva. 
         .bg-primario-p5.p-4.py-3.rounded-4.mb-3
           p.mb-0 Los agentes de limpieza son sustancias formuladas para desprender, disolver o remover suciedad y residuos presentes en equipos, recipientes, tuberías y superficies que entran en contacto con la leche. Su función principal es eliminar la materia orgánica e inorgánica, preparando posteriormente las superficies para una desinfección efectiva. 
-        p.mb-0 En la industria láctea, su selección depende del tipo de residuo, el material de la superficie, la temperatura de trabajo, la dureza del agua y el sistema de limpieza utilizado 
+        p.mb-0 En la industria láctea, su selección depende del tipo de residuo, el material de la superficie, la temperatura de trabajo, la dureza del agua y el sistema de limpieza utilizado.
         
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2.mb-5
@@ -116,7 +116,7 @@
             div
               h5.mb-4 Detergentes neutros 
               p.mb-0 Facilitan la eliminación de suciedad ligera sin ejercer una acción química intensa. 
-              p.mb-0 #[strong Ejemplo de aplicación]: lavado manual de algunos utensilios y superficies de trabajo  
+              p.mb-0 #[strong Ejemplo de aplicación]: lavado manual de algunos utensilios y superficies de trabajo.  
             div
               h5.mb-4 Tensoactivos 
               p.mb-0 Reducen la tensión superficial del agua y facilitan el desprendimiento de la suciedad. 
@@ -147,7 +147,7 @@
             p.mb-0 Puede impedir el crecimiento de microorganismos necesarios para elaborar productos fermentados. 
             p.mb-0 #[strong Ejemplo]: un cultivo para yogur puede desarrollarse lentamente o no producir la acidificación esperada.
           .tarjeta.bg-contenido-a5.p-4(titulo="Problemas en la elaboración")
-            p.mb-0 puede alterar procesos que dependen de la actividad bacteriana controlada. 
+            p.mb-0 Puede alterar procesos que dependen de la actividad bacteriana controlada. 
             p.mb-0 #[strong Ejemplo]: en algunos quesos puede dificultarse el desarrollo adecuado de la fermentación. 
           .tarjeta.bg-contenido-a5.p-4(titulo="Incumplimiento de calidad")
             p.mb-0 La leche con residuos por encima de los límites establecidos no debe destinarse normalmente al procesamiento. 

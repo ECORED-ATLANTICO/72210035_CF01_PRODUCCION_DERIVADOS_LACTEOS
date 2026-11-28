@@ -22,7 +22,7 @@ export default {
       tema: 'Fortaleciendo la planeación estratégica',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> verificar la comprensión de los conceptos, principios y relaciones desarrollados en el Componente Formativo, mediante la identificación, comprensión y aplicación conceptual sobre la composición, calidad e inocuidad de la leche en la cadena productiva.',
+        '<b> Objetivo:</b> verificar la comprensión de los conceptos, principios y relaciones desarrollados en el componente formativo, mediante la identificación, comprensión y aplicación conceptual sobre la composición, calidad e inocuidad de la leche en la cadena productiva.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',

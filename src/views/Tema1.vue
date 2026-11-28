@@ -31,7 +31,7 @@
       .col-xl-11
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
-          span Factores que influyen en la calidad de la leche.
+          span Factores que influyen en la calidad de la leche
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/3-mob.png", alt="La figura presenta de manera integrada los principales factores que influyen en la calidad de la leche a lo largo de su producción y manejo. En el centro se representa la leche como materia prima, rodeada por elementos asociados al animal, la alimentación, las condiciones de ordeño, el ambiente, el almacenamiento y transporte, y las prácticas higiénicas y de control. Cada factor reúne aspectos que pueden modificar la composición, la inocuidad y las características del producto, como la raza, el estado de salud, la nutrición, la higiene de la ubre, la limpieza de equipos, la temperatura, el enfriamiento, la desinfección y el control sanitario. ")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/3.png", alt="La figura presenta de manera integrada los principales factores que influyen en la calidad de la leche a lo largo de su producción y manejo. En el centro se representa la leche como materia prima, rodeada por elementos asociados al animal, la alimentación, las condiciones de ordeño, el ambiente, el almacenamiento y transporte, y las prácticas higiénicas y de control. Cada factor reúne aspectos que pueden modificar la composición, la inocuidad y las características del producto, como la raza, el estado de salud, la nutrición, la higiene de la ubre, la limpieza de equipos, la temperatura, el enfriamiento, la desinfección y el control sanitario. ")
       

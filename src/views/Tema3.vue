@@ -219,7 +219,7 @@
             .col-sm-6.col-lg-6
               p A continuación, lo invitamos a consultar el siguiente pódcast:
               TarjetaAudio.mb-3(
-                texto="Leche bajo control: señales, microorganismos y puntos críticos"
+                texto="La leche por dentro: calidad, composición y señales que hablan"
                 tiempo
                 :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false")

@@ -69,7 +69,7 @@
 
     .bg-vaca.p-4.rounded-4.z-2
       .tarjeta.tarjeta--blanca.p-4.rounded-4.py-3
-        p.mb-0 Después de reconocer los microorganismos que pueden alterar la leche, es importante contar con técnicas que permitan diferenciarlos. La tinción de Gram es una metodología de laboratorio que facilita su clasificación inicial según las características de su pared celular y la coloración que adquieren durante el procedimiento. En esta se puede identificar si el tipo de bacterias es Gram positiva o Gram negativa. 
+        p.mb-0 Después de reconocer los microorganismos que pueden alterar la leche, es importante contar con técnicas que permitan diferenciarlos. La tinción de Gram es una metodología de laboratorio que facilita su clasificación inicial según las características de su pared celular y la coloración que adquieren durante el procedimiento. En esta se puede identificar si el tipo de bacteria es Gram positiva o Gram negativa. 
 
 
     separador
@@ -135,7 +135,7 @@
       .col-lg-7
         p La leche puede contaminarse con bacterias provenientes del agua, el suelo, los equipos, las superficies de ordeño, los recipientes o una manipulación inadecuada. Algunas de estas bacterias tienen especial importancia porque pueden desarrollarse incluso durante el almacenamiento refrigerado y producir sustancias que modifican progresivamente la calidad de la materia prima. 
         .bg-primario-p5.p-4.py-3.rounded-4.mb-3
-          p.mb-0 Las bacterias Gram negativas son microorganismos cuya pared celular posee una capa delgada de peptidoglicano y una membrana externa. Durante la tinción de Gram, no conservan el color violeta inicial y adquieren generalmente una tonalidad rosada o rojiza al observarse al microscopio. Entre las principales bacterias de Gram negativa podemos encontrar las siguientes: 
+          p.mb-0 Las bacterias Gram negativas son microorganismos cuya pared celular posee una capa delgada de peptidoglicano y una membrana externa. Durante la tinción de Gram, no conservan el color violeta inicial y adquieren generalmente una tonalidad rosada o rojiza al observarse al microscopio. Entre las principales bacterias de Gram negativas podemos encontrar las siguientes: 
 
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2.mb-5
@@ -143,7 +143,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
           span Principales bacterias Gram negativas relacionadas con alteraciones de la leche
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/10-mob.png", alt="La figura presenta de manera visual diferentes tipos de bacterias Gram negativas asociadas con la alteración de la leche, mostrando su apariencia microscópica y una breve referencia sobre su relación con las condiciones de almacenamiento, higiene y manipulación. La imagen facilita la identificación general de estos agentes y resalta la importancia de aplicar medidas de control, limpieza, refrigeración y buenas prácticas para reducir su desarrollo en la leche.")
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/10-mbo.png", alt="La figura presenta de manera visual diferentes tipos de bacterias Gram negativas asociadas con la alteración de la leche, mostrando su apariencia microscópica y una breve referencia sobre su relación con las condiciones de almacenamiento, higiene y manipulación. La imagen facilita la identificación general de estos agentes y resalta la importancia de aplicar medidas de control, limpieza, refrigeración y buenas prácticas para reducir su desarrollo en la leche.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/10.png", alt="La figura presenta de manera visual diferentes tipos de bacterias Gram negativas asociadas con la alteración de la leche, mostrando su apariencia microscópica y una breve referencia sobre su relación con las condiciones de almacenamiento, higiene y manipulación. La imagen facilita la identificación general de estos agentes y resalta la importancia de aplicar medidas de control, limpieza, refrigeración y buenas prácticas para reducir su desarrollo en la leche.")
 
 </template>

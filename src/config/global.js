@@ -130,7 +130,7 @@ export default {
           },
           {
             numero: '6.2',
-            titulo: 'Agentes de limpieza, y antibióticos',
+            titulo: 'Agentes de limpieza y antibióticos',
             hash: 't_6_2',
           },
         ],

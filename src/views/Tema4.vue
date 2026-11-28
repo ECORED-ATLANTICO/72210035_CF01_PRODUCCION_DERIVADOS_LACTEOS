@@ -34,7 +34,7 @@
         p La densidad, el pH y la acidez son parámetros ampliamente utilizados para realizar una valoración inicial de la leche y comprender algunas de sus condiciones de calidad. Aunque cada uno aporta información diferente, analizados en conjunto permiten detectar variaciones que pueden estar relacionadas con la composición, el estado de conservación, la actividad microbiana o posibles cambios en la materia prima antes de su transformación.
         .bg-secundario-s10.p-4.rounded-4.py-3.mb-3
           p.mb-0 La densidad expresa la relación entre la masa de la leche y el volumen que ocupa. En la práctica, permite conocer qué tan concentrada se encuentra la leche respecto a sus componentes, ya que está influenciada principalmente por el contenido de agua, grasa, proteínas, lactosa y minerales. 
-        p.mb-0 En la leche de vaca fresca suele encontrarse aproximadamente entre 1,028 y 1,034 g/mL, aunque este valor puede variar según la composición y la temperatura a la cual se realice la medición. La grasa tiende a disminuir la densidad, mientras que los sólidos no grasos, como proteínas, lactosa y minerales, contribuyen a incrementarla 
+        p.mb-0 En la leche de vaca fresca suele encontrarse aproximadamente entre 1,028 y 1,034 g/mL, aunque este valor puede variar según la composición y la temperatura a la cual se realice la medición. La grasa tiende a disminuir la densidad, mientras que los sólidos no grasos, como proteínas, lactosa y minerales, contribuyen a incrementarla.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-7
@@ -183,7 +183,7 @@
         p El índice de refracción expresa cuánto cambia la dirección y velocidad de la luz al atravesar una sustancia. En el análisis de productos lácteos puede aportar información relacionada con la concentración de sustancias disueltas, especialmente lactosa y minerales. 
         .bg-secundario-s10.p-4.rounded-4.py-3.mb-3
           p.mb-0 Debido a que la leche completa es un sistema turbio por la presencia de grasa y proteínas, esta propiedad puede evaluarse con mayor precisión en determinadas fracciones líquidas, como el suero de la leche, mediante un refractómetro. 
-          p.mb-0 Como referencia, pueden obtenerse valores cercanos a 1,34, aunque estos dependen de la composición, la temperatura y el método utilizado. A continuación, se muestra una comparación practica sobre estas tres características: 
+          p.mb-0 Como referencia, pueden obtenerse valores cercanos a 1,34, aunque estos dependen de la composición, la temperatura y el método utilizado. A continuación, se describe una comparación práctica sobre estas tres características: 
 
     
     .titulo-sexto.color-acento-contenido
